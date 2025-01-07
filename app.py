@@ -38,7 +38,7 @@ def format_recipe_as_steps(recipe):
 # Streamlit App Layout
 st.title("AI-Based Recipe Generator")
 
-st.image("/content/food.jpg")
+
 # Input box for ingredients
 ingredients = st.text_area("Enter ingredients (comma-separated):", placeholder="e.g., 1 cup rice, 1 cup water, 1/2 teaspoon salt")
 
